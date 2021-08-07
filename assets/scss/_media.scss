@@ -171,8 +171,9 @@
     }
 
     #middle {
-        height: 100vh;
+        display: inline-block;
         padding: 10% 20%;
+        height: 102vh;
         h2 {
             font-size: 2em;
             margin-bottom: 5%;
