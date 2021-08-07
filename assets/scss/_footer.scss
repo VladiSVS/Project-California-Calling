@@ -1,0 +1,23 @@
+footer {
+    @include flexi(space-between, center, row);
+    background: $black;
+    color: $white;
+    padding: 0 10% 2% 10%;
+    article:first-of-type {
+        li {
+            margin-bottom: 10%;
+            a {
+                margin-right: 5%;
+                img {
+                    width: 15%;
+                }
+            }
+        }
+    }
+    article:last-of-type {
+        img {
+            width: 30%;
+            float: right;
+        }
+    }
+}

@@ -1,0 +1,39 @@
+header {
+    @include flexi(center, center, column);
+    background: $black;
+    color: $white;
+    .line {
+        height: 20vh;
+        margin-bottom: 10vh;
+        border: 2px solid grey;
+    }
+    h1 {
+        line-height: 0.8em;
+    }
+    h1:last-of-type {
+        color: $black;
+        -webkit-text-stroke: 2px;
+        -webkit-text-stroke-color: $white;
+    }
+
+    span {
+        font-size: $normal;
+    }
+
+    span:first-of-type {
+        margin-bottom: 3vh;
+    }
+
+    span:last-of-type {
+        margin-top: 3vh;
+        margin-bottom: 20vh;
+    }
+
+    div:last-of-type {
+        width: 80%;
+        @include flexi(space-between, center, row);
+        img {
+            width: 5%;
+        }
+    }
+}

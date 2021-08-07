@@ -1,0 +1,107 @@
+
+@font-face {
+    font-family: 'WorkSansLight';
+    src: url(../fonts/Work_Sans/static/WorkSans-Light.ttf);
+}
+
+@font-face {
+    font-family: 'WorkSansMedium';
+    src: url(../fonts/Work_Sans/static/WorkSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'LarishNeue';
+    src: url(../fonts/LarishNeueSemibold.woff);
+}
+
+$black: #000;
+$white: #fff;
+$big: 7em;
+$medium: 6em;
+$mediumS: 2em;
+$normal: 1em;
+$small: 0.9em;
+$fontSansL: 'WorkSansLight';
+$fontSansB: 'WorkSansMedium';
+$fontLari: 'LarishNeue';
+
+@mixin flexi($justify:default, $align:default, $direction:default, $wrap:default) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+
+}
+
+@import "./header";
+@import "./main";
+@import "./footer";
+@import "./media";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+h1 {
+    margin: 0;
+    font-size: $big;
+    font-family: $fontLari;
+}
+
+h2 {
+    margin: 0;
+    font-size: $medium;
+    font-family: $fontLari;
+}
+
+h3 {
+    margin: 0;
+    font-size: $mediumS;
+    font-family: $fontLari;
+}
+
+span {
+    margin: 0;
+    font-size: $normal;
+    font-family: $fontSansL;
+}
+
+p {
+    margin: 0;
+    font-size: $normal;
+    font-family: $fontSansB;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.button {
+    border: 2px solid $white;
+    background: $black;
+    color: $white;
+    padding: 1.5em 2.5em;
+    font-size: $normal;
+    cursor: pointer;
+}
+
+.button:hover {
+    border: 2px solid $white;
+    background: $white;
+    color: $black;
+    padding: 1.5em 2.5em;
+    font-size: $normal;
+    cursor: pointer;
+    transition: 0.5s;
+}

@@ -1,0 +1,261 @@
+@media only screen and (max-width: 1200px) {
+
+    header {
+        height: 100vh;
+        justify-content: start;
+    }
+
+    header {
+        span:last-of-type {
+            margin-bottom: 35vh;
+        }
+    }
+
+    #nearly {
+        h1:first-of-type {
+            font-size: 4em;
+        }
+    }
+
+    #nearly {
+        article {
+            div:last-of-type {
+                img {
+                    width: 50%;
+                }
+            }
+        }
+    } 
+
+    #middle {
+        height: 60vh;
+        h2 {
+            font-size: 4em;
+        }
+    }
+
+    #middle {
+        article:first-of-type {
+            img:nth-of-type(1) {
+                margin-top: -50%;
+            }
+        }
+    }  
+
+    #join {
+        article:last-of-type {
+            h1 {
+                display: none;
+            }
+        }
+    } 
+
+    #golden {
+        .circle {
+            display: none;
+        }
+    }  
+
+    #join {
+        article:first-of-type {
+            width: 100%;
+            h3 {
+                margin: 10% 0;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    header {
+        h1 {
+            font-size: 6em;
+        }
+        span:last-of-type {
+            margin-bottom: 30vh;
+            font-size: 0.9em;
+        }
+    }
+
+    #nearly {
+        h1:first-of-type {
+            font-size: 3em;
+        }
+    }
+
+    #middle {
+        height: 75vh;
+        h2 {
+            font-size: 3em;
+            margin-bottom: 5%;
+        }
+    }
+
+    #middle {
+        p {
+            font-size: 0.9em;
+        }
+    }
+
+    #middle {
+        article:first-of-type {
+            img:nth-of-type(1) {
+                margin-top: -60%;
+            }
+        }
+    } 
+    
+    .pos {
+        h2 {
+            font-size: 4em;
+        }
+
+        h3 {
+            font-size: 1em;
+        }
+
+        p {
+            font-size: 0.8em;
+        }
+    }
+
+    #join {
+        article:first-of-type {
+            width: 100%;
+            h3 {
+                font-size: 1.5em;
+                margin: 10% 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    header {
+        h1 {
+            font-size: 3em;
+        }
+
+        span:first-of-type {
+            font-size: 0.8em;
+        }
+        span:last-of-type {
+            margin-bottom: 35vh;
+            font-size: 0.8em;
+            width: 50%;
+            text-align: center;
+        }
+        div:last-of-type {
+            img {
+                width: 25%;
+            }
+        }
+    }
+
+    #nearly {
+        h1:first-of-type {
+            font-size: 2em;
+        }
+        article {
+            div {
+                h1 {
+                    font-size: 4em;
+                }
+            }
+        }
+    }
+
+    #nearly {
+        background: url(../img/map.svg) center no-repeat;
+        background-color: $black;
+        article {
+            div:last-of-type {
+                img {
+                    display: none;
+                }
+            }
+        }
+    } 
+
+    #middle {
+        height: 100vh;
+        padding: 10% 20%;
+        h2 {
+            font-size: 2em;
+            margin-bottom: 5%;
+        }
+        p {
+            font-size: 0.8em;
+        }
+        article:first-of-type {
+            width: 100%;
+            img:nth-of-type(1) {
+                display: inline-block;
+                position: relative;
+                width: 100%;
+                margin: 5% 0;
+                right: 0;
+            }
+            img:nth-of-type(4) {
+                display: inline-block;
+                position: relative;
+                width: 100%;
+                margin: 5% 0;
+                right: 0;
+                left: 0;
+            }
+            img {
+                display: none;
+            }
+        }
+        article:last-of-type {
+            width: 100%;
+            img {
+                display: none;
+            }
+        }
+    }
+
+    .pos {
+        h2 {
+            font-size: 2em;
+        }
+        h3 {
+            font-size: 0.8em;
+        }
+
+        p {
+            font-size: 0.7em;
+        }
+    }
+
+    #join {
+        article:first-of-type {
+            width: 100%;
+            h3 {
+                font-size: 1.2em;
+                margin: 10% 0;
+            }
+        }
+    }
+
+    footer {
+        article:first-of-type {
+            ul {
+                li {
+                    p {
+                        font-size: 0.7em;
+                        img {
+                            width: 15%;
+                        }
+                    }
+                }
+            }
+        }
+        article:last-of-type {
+            width: 70%;
+        }
+    }
+}
