@@ -484,14 +484,14 @@ footer article:last-of-type img {
   #join article:last-of-type h1 {
     display: none;
   }
-  #golden .circle {
-    display: none;
-  }
   #join article:first-of-type {
     width: 100%;
   }
   #join article:first-of-type h3 {
     margin: 10% 0;
+  }
+  #golden .circle {
+    display: none;
   }
 }
 
@@ -553,15 +553,15 @@ footer article:last-of-type img {
   header div:last-of-type img {
     width: 25%;
   }
+  #nearly {
+    background: url(../img/map.svg) center no-repeat;
+    background-color: #000;
+  }
   #nearly h1:first-of-type {
     font-size: 2em;
   }
   #nearly article div h1 {
     font-size: 4em;
-  }
-  #nearly {
-    background: url(../img/map.svg) center no-repeat;
-    background-color: #000;
   }
   #nearly article div:last-of-type img {
     display: none;
